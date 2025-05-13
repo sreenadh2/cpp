@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    int l=0;
+    cout<<"enter a number ";
+    cin>>n;
+    while(n>0){
+       n= n/10;
+       l++;
+    }
+    cout<<l;
+}
